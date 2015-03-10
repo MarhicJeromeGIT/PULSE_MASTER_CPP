@@ -1,0 +1,56 @@
+﻿Build started 3/9/2015 1:04:10 AM.
+     1>Project "C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\PulseCpp\PulseCpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\bitboard.cpp ..\..\castling.cpp ..\..\castlingtype.cpp ..\..\color.cpp ..\..\evaluation.cpp ..\..\file.cpp ..\..\main.cpp ..\..\move.cpp ..\..\movegenerator.cpp ..\..\movelist.cpp ..\..\movetype.cpp ..\..\notation.cpp ..\..\perft.cpp ..\..\piece.cpp ..\..\piecetype.cpp ..\..\position.cpp ..\..\pulse.cpp ..\..\rank.cpp ..\..\search.cpp ..\..\square.cpp ..\..\value.cpp
+         value.cpp
+         square.cpp
+         search.cpp
+         rank.cpp
+         pulse.cpp
+         position.cpp
+         piecetype.cpp
+         piece.cpp
+         perft.cpp
+         notation.cpp
+         movetype.cpp
+         movelist.cpp
+         movegenerator.cpp
+         move.cpp
+         main.cpp
+         file.cpp
+         evaluation.cpp
+         color.cpp
+         castlingtype.cpp
+         castling.cpp
+         Generating Code...
+         Compiling...
+         bitboard.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\Debug\PulseCpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\Debug\PulseCpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\Debug\PulseCpp.lib" /MACHINE:X86 Debug\bitboard.obj
+         Debug\castling.obj
+         Debug\castlingtype.obj
+         Debug\color.obj
+         Debug\evaluation.obj
+         Debug\file.obj
+         Debug\main.obj
+         Debug\move.obj
+         Debug\movegenerator.obj
+         Debug\movelist.obj
+         Debug\movetype.obj
+         Debug\notation.obj
+         Debug\perft.obj
+         Debug\piece.obj
+         Debug\piecetype.obj
+         Debug\position.obj
+         Debug\pulse.obj
+         Debug\rank.obj
+         Debug\search.obj
+         Debug\square.obj
+         Debug\value.obj
+         PulseCpp.vcxproj -> C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\Debug\PulseCpp.exe
+     1>Done Building Project "C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\PulseCpp\PulseCpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.87

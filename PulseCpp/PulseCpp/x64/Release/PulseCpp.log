@@ -1,0 +1,35 @@
+﻿Build started 3/10/2015 2:06:17 AM.
+     1>Project "C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\PulseCpp\PulseCpp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\PulseLib.cpp ..\..\main.cpp
+         PulseLib.cpp
+         main.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\x64\Release\PulseCpp.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\bitboard.obj
+         x64\Release\castling.obj
+         x64\Release\castlingtype.obj
+         x64\Release\color.obj
+         x64\Release\evaluation.obj
+         x64\Release\file.obj
+         x64\Release\main.obj
+         x64\Release\move.obj
+         x64\Release\movegenerator.obj
+         x64\Release\movelist.obj
+         x64\Release\movetype.obj
+         x64\Release\notation.obj
+         x64\Release\perft.obj
+         x64\Release\piece.obj
+         x64\Release\piecetype.obj
+         x64\Release\position.obj
+         x64\Release\pulse.obj
+         x64\Release\PulseLib.obj
+         x64\Release\rank.obj
+         x64\Release\search.obj
+         x64\Release\square.obj
+         x64\Release\value.obj
+         PulseCpp.vcxproj -> C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\x64\Release\PulseCpp.lib
+     1>Done Building Project "C:\Users\XiongBaoBao\Downloads\pulse-master\pulse-master\src\main\cpp\PulseCpp\PulseCpp\PulseCpp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.04
