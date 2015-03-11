@@ -49,6 +49,13 @@ void PulseLib::makeMove(const myMove& move)
 	position->makeMove(pulse_move);
 }
 
+bool PulseLib::hasLost()
+{
+	MoveGenerator moveGenerators;
+	MoveList<MoveEntry>& moves = moveGenerators.getLegalMoves(*position, 1, position->isCheck());
+	return moves.size == 0;
+}
+
 // Return all the possible moves from this position
 void PulseLib::getMoveList(int origFile, int origRank, std::vector<myMove>& legalMoves)
 {
